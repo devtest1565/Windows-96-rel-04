@@ -1,0 +1,26 @@
+/* W96-DRIVER-CMP */
+
+@font-face {
+    font-family: "stdvga";
+    src: url("../fonts/vga.ttf");
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.vga_console_container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: stdvga;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.vga_con_line {
+
+}

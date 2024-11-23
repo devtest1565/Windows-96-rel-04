@@ -1,0 +1,60 @@
+<!DOCTYPE html><!--
+    Windows 96
+
+    Copyright (C) The Windows 96 Team 2019. All rights reserved.
+--><html><head>
+        <title>Windows 96</title>
+        <meta http-equiv="Cache-control" content="public">
+        
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="stdvga.css">
+        <link rel="stylesheet" href="jquery-ui.min.css">
+        <link rel="stylesheet" href="codemirror.css">
+        <meta property="og:url" content="https://windows96.net">
+        <meta property="og:title" content="MICRO96 WINDOWS(R) 96">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="WINDOWS96">
+        <meta property="og:image" content="windows96.png">
+        <meta property="og:description" content="MICRO96 presents you the latest version of Windows(R), WINDOWS 96.">
+        <link rel="apple-touch-icon" href="appletouch-icon.png" id="appletouch_icon">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="icon" sizes="192x192" href="appletouch-icon.png" id="app_icon">
+        <script src="jszip.min.js"></script>
+    </head>
+    <body oncontextmenu="return false;" style="overflow: hidden;">
+        <style>.desktop { background-position: center; } </style>
+        <!-- NOSCRIPT for ppl who dont use java :) -->
+        <noscript>
+            <div class="context-noscript" style="
+                color: white;
+                font-family: stdvga;
+                padding: 10px;
+            ">
+            <img width="533" height="300" src="system36/gl_textures/facepalm.jpg">
+            <br>
+            -- ERROR -- Cannot start WINDOWS96 without javascript<br>
+            <br>
+            Click <a href="http://enable-javascript.com">here</a> to learn how to enable it<br>
+            or if you are a real javascript hater click <a href="/noscript">here</a></div>
+        </noscript>
+        <!-- Do CSS changes programatically -->
+        <!-- Delete console after bios conboot -->
+        <div id="convga" class="vga_console_container">
+            
+        </div>
+        <div id="maingfx" class="os_container">
+            
+        </div>
+        <audio id="mainaudio" autoplay=""></audio>
+        <script src="jquery-min.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <!--<script src="system36/jQueryUI.dll/jquery.ui.touch-punch.min.js"></script>-->
+        <script src="util.js"></script>
+        <script src="convga.js"></script>
+        <script src="bios_loader.js"></script>
+        <script src="webfs.js"></script>
+        <script src="std_w96_rom.js"></script>
+        <script src="bootup_screen.js"></script>
+        <script src="system36.js"></script>
+    
+</body></html>
